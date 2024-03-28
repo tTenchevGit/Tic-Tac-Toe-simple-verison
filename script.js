@@ -24,7 +24,7 @@ const checkWinner = () => {
 
     if (!board.includes('')) {
         isGameActive = false;
-        setStatus('Game is a draw!');
+        setStatus('Game is a draw!!');
     }
 };
 
