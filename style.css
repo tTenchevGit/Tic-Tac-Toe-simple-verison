@@ -14,7 +14,7 @@ body {
 .gameWrapper {
     display: flex;
     flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center children horizontally */
+    align-items: center; 
 }
 
 #gameContainer {
