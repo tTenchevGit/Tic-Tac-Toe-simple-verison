@@ -17,7 +17,7 @@ const checkWinner = () => {
         const [a, b, c] = pattern;
         if (board[a] && board[a] === board[b] && board[a] === board[c]) {
             isGameActive = false;
-            setStatus(`Player ${currentPlayer} wins!`);
+            setStatus(`Player ${currentPlayer} wins!!`);
             return;
         }
     }
